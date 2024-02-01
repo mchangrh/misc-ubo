@@ -17,7 +17,10 @@ www.dndbeyond.com##.ct-character-header-desktop__group--share
 app.roll20.net###avatarContainer
 app.roll20.net###jukeboxtab
 app.roll20.net###arttab > .ui-tabs-anchor.pictos
+app.roll20.net##.alert
 roll20.net###reserve_announcement
 roll20.net###nav-subscribe
 roll20.net###optlysub
 roll20.net##.homeannouncement
+roll20.net##a[href="https://twitter.com/roll20app"]
+roll20.net##.userlevel

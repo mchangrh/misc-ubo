@@ -1,0 +1,23 @@
+[uBlock Origin]
+! Title: misc-DnD
+! Last modified: 2024/02/01
+! Expires: 1 day
+! Homepage: https://github.com/mchangrh/misc-ubo
+! Licence: Unlicense
+!
+
+! dndbeyond
+www.dndbeyond.com##.ddb-site-banner
+www.dndbeyond.com##.variant-cta-container
+www.dndbeyond.com##.socials
+www.dndbeyond.com##.dice-toolbar
+www.dndbeyond.com##.ct-character-header-desktop__group--share
+
+! roll20
+app.roll20.net###avatarContainer
+app.roll20.net###jukeboxtab
+app.roll20.net###arttab > .ui-tabs-anchor.pictos
+roll20.net###reserve_announcement
+roll20.net###nav-subscribe
+roll20.net###optlysub
+roll20.net##.homeannouncement

@@ -1,0 +1,32 @@
+[uBlock Origin]
+! Title: misc-genshin
+! Last modified: 2024/02/01
+! Expires: 1 day
+! Homepage: https://github.com/mchangrh/misc-ubo
+! Licence: Unlicense
+!
+
+! seelie.me
+seelie.me##button:has(>p:has-text(Donate))
+seelie.me##a[href="https://hsr.seelie.me"]
+seelie.me##div.mx-auto:has(>div:has(>img[src="/img/stickers/please.png"]))
+
+! genshin.global
+genshin.global##aside.sidebar-container
+genshin.global##.wd-prefooter
+
+! paimon.moe
+paimon.moe##button:has(>img[alt="donate"])
+paimon.moe##a[href="https://discord.gg/tPURAYgHV9"]
+paimon.moe##a.cell.opacity-50
+
+! spiel times
+www.spieltimes.com##.td-main-sidebar
+www.spieltimes.com##p[style="text-align:center"]
+www.spieltimes.com##button:has-text(Discuss)
+www.spieltimes.com##.tdc-footer-wrap
+www.spieltimes.com##.author-box-wrap
+www.spieltimes.com##.menu-item > [href^="mailto:pingal@spieltimes.com"]
+www.spieltimes.com##.menu-item > [href^="/cdn-cgi/l/email-protection"]
+www.spieltimes.com##img.ezlazyload
+www.spieltimes.com##.lazyload

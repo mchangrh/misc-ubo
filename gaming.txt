@@ -1,0 +1,20 @@
+[uBlock Origin]
+! Title: misc-gaming
+! Last modified: 2024/02/01
+! Expires: 1 day
+! Homepage: https://github.com/mchangrh/misc-ubo
+! Licence: Unlicense
+!
+
+! fandom
+fandom.com##.global-navigation
+fandom.com##.mcf-wrapper
+fandom.com##.wds-global-footer__main
+fandom.com##.wikia-bar-anon.wikia-bar
+fandom.com##.wds-has-padding.wds-global-footer__bottom-bar-row
+fandom.com##.discord-module
+
+! amazon gaming
+gaming.amazon.com##div>div>div[data-a-target="offer-section-WEB_GAMES"]
+gaming.amazon.com##div>div>div[data-a-target="offer-section-LUNA"]
+gaming.amazon.com##.featured-content

@@ -1,0 +1,57 @@
+[uBlock Origin]
+! Title: misc-github
+! Last modified: 2024/02/06
+! Expires: 1 day
+! Homepage: https://github.com/mchangrh/misc-ubo
+! Licence: Unlicense
+!
+
+!----
+! THIS FILTER EXPLICITLY
+! DOES NOT REMOVE ANY ELEMENTS IN USER SETTINGS
+! THIS IS INTENTIONAL
+!----
+
+# codespaces
+! code/ clone
+github.com##.Overlay__StyledOverlay-sc-51280t-0 .TabNav__TabNavBase-sc-pwdi4r-0>nav
+! nav (left) menu
+github.com##li.ActionListItem:has(a[href="https://github.com/codespaces"])
+! profile (right) menu + repo settings
+github.com##li.ActionListItem:has(a[href$="/settings/codespaces"])
+! create menu
+github.com##li.ActionListItem:has(a[href$="/codespaces/new"])
+
+# enterprises
+! profile menu - your enterprises
+github.com##li.ActionListItem:has(a[href="/settings/enterprises"])
+! profile menu - try enterprise
+github.com##li.ActionListItem:has(a[href^="/organizations/enterprise_plan"])
+
+# repository prompts
+! create release/ package prompt
+github.com##.about-margin .BorderGrid-row:has(div.text-small.color-fg-muted)
+! recommended workflow notice
+github.com##.BorderGrid-row:has(form[action$="/dismiss_repository_notice"])
+! github cli in code/clone tab
+github.com##li.Box-sc-g0xbh4-0 a[aria-keyshortcuts="g"]
+! open in github desktop
+github.com##li.Item__LiBox-sc-yeql7o-0:has(svg.octicon-desktop-download)
+
+# profile menu
+! upgrade
+github.com##li.ActionListItem:has(a[href="/account/choose?action=upgrade"])
+! copilot
+github.com##li.ActionListItem:has(a[href="/github-copilot/signup"])
+
+# nav menu
+! explore
+github.com##li.ActionListItem:has(a[href="/explore"])
+! marketplace
+github.com##li.ActionListItem:has(a[href="/marketplace"])
+
+# misc
+! organization compare plan
+github.com##a[data-category="compare_plans"]
+! explore sponsors
+github.com##div.Box:has(.Box-row a[href="/sponsors/explore"])

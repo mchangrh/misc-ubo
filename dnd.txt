@@ -12,6 +12,7 @@ www.dndbeyond.com##.variant-cta-container
 www.dndbeyond.com##.socials
 www.dndbeyond.com##.dice-toolbar
 www.dndbeyond.com##.ct-character-header-desktop__group--share
+www.dndbeyond.com##.mm-nav-item>a[href="/store/subscribe"]
 
 ! roll20
 app.roll20.net###avatarContainer

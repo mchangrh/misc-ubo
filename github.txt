@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: misc-github
-! Last modified: 2024/02/06
+! Last modified: 2024/02/15
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/misc-ubo
 ! Licence: Unlicense
@@ -29,8 +29,6 @@ github.com##li.ActionListItem:has(a[href="/settings/enterprises"])
 github.com##li.ActionListItem:has(a[href^="/organizations/enterprise_plan"])
 
 # repository prompts
-! create release/ package prompt
-github.com##.about-margin .BorderGrid-row:has(div.text-small.color-fg-muted)
 ! recommended workflow notice
 github.com##.BorderGrid-row:has(form[action$="/dismiss_repository_notice"])
 ! github cli in code/clone tab

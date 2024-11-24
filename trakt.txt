@@ -1,0 +1,29 @@
+[uBlock Origin]
+! Title: misc-trakt
+! Last modified: 2024/11/23
+! Expires: 1 day
+! Homepage: https://github.com/mchangrh/misc-ubo
+! Licence: Unlicense
+!
+
+! checkin
+trakt.tv##button[data-target="#checkin-modal"]
+! selfpromo
+trakt.tv##.hero-wrapper
+
+! vip ads
+trakt.tv##a[href="/vip/advertising"]:nth-ancestor(2)
+! vip upsell
+trakt.tv##.btn.btn-vip
+trakt.tv##.streaming-links
+trakt.tv###ondeck-wrapper > .container > h2 > .feed-icons
+trakt.tv##.advanced-filters-upsell
+trakt.tv##a[href="/widgets"]
+trakt.tv##.panel:has(>.panel-heading>span.label-vip)
+trakt.tv##.form-group:has(span.label-vip)
+trakt.tv##.yir-loader
+trakt.tv##.grid-item > [href="/vip"]
+! watch now
+trakt.tv##.watch-now
+trakt.tv##.btn-watch-now
+trakt.tv##.affiliate-links

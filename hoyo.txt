@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Title: misc-genshin
+! Title: misc-hoyo
 ! Last modified: 2024/02/01
 ! Expires: 1 day
 ! Homepage: https://github.com/mchangrh/misc-ubo
@@ -30,3 +30,8 @@ www.spieltimes.com##.menu-item > [href^="mailto:pingal@spieltimes.com"]
 www.spieltimes.com##.menu-item > [href^="/cdn-cgi/l/email-protection"]
 www.spieltimes.com##img.ezlazyload
 www.spieltimes.com##.lazyload
+
+! stardb.gg
+||stardb.gg/lootbar_v2.png$image
+stardb.gg##a[href="/en/posts/official-partnership-with-lootbar-for-top-ups"]
+stardb.gg##a[href="https://ko-fi.com/stardb"]
